@@ -1,0 +1,28 @@
+name:                Hilbert-Space
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/githubuser/Hilbert-Space#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2021 Author name here
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - diagrams
+  - diagrams-svg
+  - diagrams-lib
+  - diagrams-rasterific
+  - random
+  - random-fu
+  - random-source
+  - split
+
+executables:
+  Hilbert-Space:
+    source-dirs:      src
+    main:             Main.hs
